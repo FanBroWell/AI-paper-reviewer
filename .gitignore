@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if you add helper scripts later)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Drafts / local notes
+draft/
+local_notes/
+*.draft.md
