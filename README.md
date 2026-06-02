@@ -118,6 +118,14 @@ Algorithm 描述里 `θ` 跟 `τ` 同时出现导致内部矛盾的修复全过�
 
 ---
 
+## 📚 支持文档
+
+- [`docs/10_dimensions_explained.md`](docs/10_dimensions_explained.md) — 10 维度框架详解
+- [`docs/severity_tiers.md`](docs/severity_tiers.md) — 4 级红旗体系详解
+- [`docs/usage_guide.md`](docs/usage_guide.md) — 进阶使用指南(跨段对照 / token 优化 / 自动化 pipeline 等)
+
+---
+
 ## 🎓 10 维度审查框架
 
 | 维度 | 核心问题 |

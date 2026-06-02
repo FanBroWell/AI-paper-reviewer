@@ -30,7 +30,7 @@ When you submit your paper, reviewers come back with 30 comments. **25 of them a
 
 **You do not need a reviewer to teach you these.**
 
-This project open-sources a strict reviewer-grade audit workflow refined through real ICDM / CIKM / KDD submissions, letting your paper survive **a top-tier reviewer's eye before submission**.
+This project open-sources a strict reviewer-grade audit workflow refined through real **NeurIPS / AAAI / ICDM / ICML / KDD** submissions, letting your paper survive **a top-tier reviewer's eye before submission**.
 
 ---
 
@@ -88,6 +88,21 @@ This project open-sources a strict reviewer-grade audit workflow refined through
 
 ---
 
+## 📊 Real examples
+
+- [`examples/case_01_abstract_before_after.md`](examples/case_01_abstract_before_after.md) — Abstract before / after with 9 key edits.
+- [`examples/case_02_method_audit.md`](examples/case_02_method_audit.md) — Methodology symbol-conflict diagnosis + fix walkthrough.
+
+---
+
+## 📚 Supporting docs
+
+- [`docs/10_dimensions_explained.md`](docs/10_dimensions_explained.md) — full 10-dimension framework
+- [`docs/severity_tiers.md`](docs/severity_tiers.md) — 4-tier severity system
+- [`docs/usage_guide.md`](docs/usage_guide.md) — advanced usage tips
+
+---
+
 ## 🎓 10-dimension framework
 
 | Dimension | Core question |
@@ -103,6 +118,8 @@ This project open-sources a strict reviewer-grade audit workflow refined through
 | [I] Structure & flow | Topic sentence? Transitions? Figures/Tables explained? |
 | [J] Reviewer red flags | `we are the first` / `no matter how complex` / `obviously`? |
 
+See [`docs/10_dimensions_explained.md`](docs/10_dimensions_explained.md) for details.
+
 ---
 
 ## 🚨 4-tier severity
@@ -114,11 +131,19 @@ This project open-sources a strict reviewer-grade audit workflow refined through
 | 🟡 Minor | Minor comment | **Recommended** |
 | 🟢 Pass | OK | — |
 
+See [`docs/severity_tiers.md`](docs/severity_tiers.md) for details.
+
 ---
 
 ## 🤝 Contributing
 
 Found a new reviewer red flag? Encountered an uncovered scenario? PRs welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+---
+
+## 🌟 Star History
+
+If this project ever helped you avoid one reviewer rejection, **give it a Star so more people can find it** ⭐
 
 ---
 
