@@ -19,20 +19,12 @@
 
 ## 📖 Why this project
 
-When you submit your paper, reviewers come back with 30 comments. **25 of them are things you could have caught yourself**:
+When you submit your paper, reviewers come back with 30 comments — only to realize **25 of them are low-level errors you could have caught yourself before submission**.
 
-- `we are the first to ...` — the most dangerous claim at top-tier venues
-- `θ` vs `τ` mixed in Algorithm 1 — internal inconsistency
-- Numbers in table don't match the prose — reviewer cross-checks and busts you
-- `Significantly outperforms` without p-value — quantitative red flag
-- Author's real name / institution leaked in anonymous submission
-- `we sincerely hope to inspire enthusiasm` — motivational-speech tone
-- Em-dash mixed `—` `--` `---` — formatting chaos
-- ......
+Top-tier paper self-review is an **invisible craft**: well-established research groups maintain their own audit checklists, while most authors keep stumbling over the same pitfalls — until a reviewer writes it in the review.
 
-**You do not need a reviewer to teach you these.**
+This project synthesizes a strict reviewer-grade self-audit workflow from **publicly available reviewer guidelines, author-reviewer discussions on OpenReview, and the author's own multi-venue submission and rebuttal experience** across NeurIPS / ICML / ICLR / CIKM / KDD — letting your paper survive **a top-tier reviewer's eye before submission**.
 
-This project synthesizes a strict reviewer-grade audit workflow from **publicly available reviewer guidelines, author-reviewer discussions on OpenReview / NeurIPS forums, and the author's own multi-venue submission and rebuttal experience** across NeurIPS / ICML / ICLR / CIKM / KDD, letting your paper survive **a top-tier reviewer's eye before submission**.
 
 ---
 
