@@ -20,20 +20,11 @@
 
 ## 📖 为什么做这个项目
 
-当你提交论文,reviewer 报回 30 条 comment,其中 **25 条是你完全可以投稿前自己发现的**:
+当你提交论文,reviewer 第一轮就退回 30 条 comment——你才发现其中 **25 条是你投稿前完全可以自己发现的低级错误**。
 
-- `we are the first to ...` — 顶会**最危险的 claim**(reviewer 一找反例就崩)
-- Algorithm 1 里 `θ` 跟 `τ` 混用 — **内部矛盾**
-- Table 数字跟正文不一致 — **reviewer 一对就崩**
-- `Significantly outperforms` 但没 p-value — **量化红旗**
-- Anonymous 投稿里残留作者真名 / 学校 / 邮箱 — **双盲泄露**
-- "we sincerely hope to inspire enthusiasm" — **励志演讲 tone**
-- Em-dash 用 `—` `--` `---` 三种混用 — **格式失控**
-- ......
+顶会论文的"自审"是一门**隐性技能**:成熟的研究组有完善的自查清单, 大多数人却在反复踩同样的坑——直到被 reviewer 写在评审意见里才意识到。
 
-**这些错误,不需要 reviewer 来教你**。
-
-本项目的审稿框架综合了 **NeurIPS / ICML / ICLR / CIKM / KDD 多届顶会 reviewer guidelines、作者-评审委员公开讨论,以及作者本人投稿 + rebuttal 实战经验**,提炼出一套可复用的严格自审流程,让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
+本项目综合 **NeurIPS / ICML / ICLR / CIKM / KDD 多届顶会 reviewer guidelines、OpenReview 公开讨论以及作者本人的投稿与 rebuttal 实战经验,整理成一套**可复用的严格自审流程**, 让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
 
 ---
 
