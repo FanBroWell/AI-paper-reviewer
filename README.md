@@ -165,4 +165,4 @@ Algorithm 描述里 `θ` 跟 `τ` 同时出现导致内部矛盾的修复全过�
 
 ## 📄 License
 
-[MIT](LICENSE) — 自由商用 / 修改 / 分发,**唯一要求是 attribution**。
+[MIT](LICENSE) — 可自由商用、修改、分发,需保留版权与许可声明
