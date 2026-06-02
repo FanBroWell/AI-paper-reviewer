@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="Top-conf-PaperReviewer" width="100%" />
+
 # 🔍 Top-conf-PaperReviewer
 
 **Let AI act as the strictest top-tier conference reviewer for you**

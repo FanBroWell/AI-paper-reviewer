@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="Top-conf-PaperReviewer" width="100%" />
+
 # 🔍 Top-conf-PaperReviewer
 
 **让 AI 替你做最严格的顶会 Reviewer**
