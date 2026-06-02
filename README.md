@@ -33,7 +33,7 @@
 
 **这些错误,不需要 reviewer 来教你**。
 
-本项目把作者本人投稿 **NeurIPS / AAAI / ICDM / ICML / KDD** 实战中提炼的**严格审稿工作流**开源,让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
+本项目的审稿框架综合了 **NeurIPS / ICML / ICLR / CIKM / KDD 多届顶会 reviewer guidelines、作者-评审委员公开讨论,以及作者本人投稿 + rebuttal 实战经验**,提炼出一套可复用的严格自审流程,让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
 
 ---
 

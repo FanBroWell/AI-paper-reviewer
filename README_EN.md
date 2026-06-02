@@ -32,7 +32,7 @@ When you submit your paper, reviewers come back with 30 comments. **25 of them a
 
 **You do not need a reviewer to teach you these.**
 
-This project open-sources a strict reviewer-grade audit workflow refined through real **NeurIPS / AAAI / ICDM / ICML / KDD** submissions, letting your paper survive **a top-tier reviewer's eye before submission**.
+This project synthesizes a strict reviewer-grade audit workflow from **publicly available reviewer guidelines, author-reviewer discussions on OpenReview / NeurIPS forums, and the author's own multi-venue submission and rebuttal experience** across NeurIPS / ICML / ICLR / CIKM / KDD, letting your paper survive **a top-tier reviewer's eye before submission**.
 
 ---
 
