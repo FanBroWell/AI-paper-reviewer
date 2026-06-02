@@ -172,14 +172,6 @@ Algorithm 描述里 `θ` 跟 `τ` 同时出现导致内部矛盾的修复全过�
 
 ---
 
-## 🔗 相关项目
-
-- 通用 prompt 集合(润色 / 翻译 / 缩写): [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing)
-
-本项目是上面通用 prompt 集合的**深度 / 严格 / 专业**补集 —— 不替代,**互补**。
-
----
-
 ## 📄 License
 
 [MIT](LICENSE) — 自由商用 / 修改 / 分发,**唯一要求是 attribution**。

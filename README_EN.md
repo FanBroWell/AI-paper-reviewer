@@ -149,14 +149,6 @@ If this project ever helped you avoid one reviewer rejection, **give it a Star s
 
 ---
 
-## 🔗 Related
-
-- Generic writing prompts (translate / polish / abridge): [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing)
-
-This project complements that one — **strict** / **deep** / **professional** counterpart for the **audit-and-pre-submission** stage.
-
----
-
 ## 📄 License
 
 [MIT](LICENSE) — Commercial use / modification / distribution allowed with attribution.
