@@ -24,7 +24,7 @@
 
 顶会论文的"自审"是一门**隐性技能**:成熟的研究组有完善的自查清单, 大多数人却在反复踩同样的坑——直到被 reviewer 写在评审意见里才意识到。
 
-本项目综合 **NeurIPS / ICML / ICLR / CIKM / KDD 多届顶会 reviewer guidelines、OpenReview 公开讨论以及作者本人的投稿与 rebuttal 实战经验,整理成一套**可复用的严格自审流程**, 让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
+本项目综合 **NeurIPS / ICML / ICLR / AAAI / KDD 多届顶会 reviewer guidelines、OpenReview 公开讨论以及作者本人的投稿与 rebuttal 实战经验,整理成一套**可复用的严格自审流程**, 让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
 
 ---
 
