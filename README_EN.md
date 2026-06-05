@@ -35,10 +35,24 @@ AI-paper-reviewer is a collection of copy-ready paper review prompts for Claude,
 
 It is not a paper-writing shortcut. It is a pre-submission audit layer that helps you see your manuscript through a reviewer's eyes before the review arrives.
 
+## Council-5 Review Board
+
+**Do not ask one AI. Convene a council.**
+
+Council-5 is a general high-pressure review protocol for papers, code designs, product ideas, research directions, business plans, and public writing. Five seats inspect the same input from different angles: the Adversary, the First-Principles Seat, the Builder, the Outsider, and the Operator. The Chair then removes duplicates, resolves conflicts, assigns P0 / P1 / P2 priorities, and produces a directly usable revision.
+
+Core hook:
+
+> Put your idea on trial before reality does.
+
+Start here: [`prompts/15_council5_review_board.md`](prompts/15_council5_review_board.md)  
+Protocol guide: [`docs/council5_protocol.md`](docs/council5_protocol.md)
+
 ---
 
 ## ✨ Highlights
 
+- 🧭 **Council-5 Review Board** — stress-test important work through adversarial critique, first-principles reasoning, expansion, outsider clarity, and operational feasibility
 - 🎯 **10-dimension audit framework** — logic / empirics / writing / citations / math / anonymity / formatting / language / structure / red flags
 - 🚨 **4-tier severity system** — 🔴 Critical / 🟠 Major / 🟡 Minor / 🟢 Pass
 - 📊 **Paragraph-level granular review** — every paragraph gets 10-dim scoring + line-by-line rewrites
@@ -89,12 +103,16 @@ Most people start with [`prompts/02_paragraph_audit.md`](prompts/02_paragraph_au
 ### Part V: Red flag quick reference
 - [`14_reviewer_red_flags.md`](prompts/14_reviewer_red_flags.md)
 
+### Part VI: General review protocols
+- [`15_council5_review_board.md`](prompts/15_council5_review_board.md) — Council-5 for papers, code, products, plans, and arguments
+
 ---
 
 ## 📊 Real examples
 
 - [`examples/case_01_abstract_before_after.md`](examples/case_01_abstract_before_after.md) — Abstract before / after with 9 key edits.
 - [`examples/case_02_method_audit.md`](examples/case_02_method_audit.md) — Methodology symbol-conflict diagnosis + fix walkthrough.
+- [`examples/case_03_council5_general_review.md`](examples/case_03_council5_general_review.md) — Council-5 reviewing a broad product claim.
 
 ---
 
@@ -103,6 +121,7 @@ Most people start with [`prompts/02_paragraph_audit.md`](prompts/02_paragraph_au
 - [`docs/10_dimensions_explained.md`](docs/10_dimensions_explained.md) — full 10-dimension framework
 - [`docs/severity_tiers.md`](docs/severity_tiers.md) — 4-tier severity system
 - [`docs/usage_guide.md`](docs/usage_guide.md) — advanced usage tips
+- [`docs/council5_protocol.md`](docs/council5_protocol.md) — Council-5 protocol guide
 
 ---
 
