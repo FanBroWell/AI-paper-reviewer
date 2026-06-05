@@ -31,7 +31,7 @@ where $\theta$ represents the standard deviation of returns.    % ← θ again, 
 
 ---
 
-## 🔍 Top-conf-PaperReviewer Audit 结果
+## 🔍 AI-paper-reviewer Audit 结果
 
 ### 综合评级: 🔴 **Critical**
 

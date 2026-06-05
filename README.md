@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Top-conf-PaperReviewer" width="100%" />
+<img src="assets/banner.png" alt="AI-paper-reviewer" width="100%" />
 
-# 🔍 Top-conf-PaperReviewer
+# 🔍 AI-paper-reviewer
 
-**让 AI 替你做最严格的顶会 Reviewer**
+**AI paper reviewer prompts for NeurIPS, ICML, ICLR, AAAI, and KDD**
+
+严格的投稿前自审 prompt 集合,覆盖 academic writing、citation checking、reproducibility、rebuttal preparation 和 reviewer-style paper audits。
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -24,7 +26,7 @@
 
 顶会论文的"自审"是一门**隐性技能**:成熟的研究组有完善的自查清单, 大多数人却在反复踩同样的坑——直到被 reviewer 写在评审意见里才意识到。
 
-本项目综合 **NeurIPS / ICML / ICLR / AAAI / KDD 多届顶会 reviewer guidelines、OpenReview 公开讨论以及作者本人的投稿与 rebuttal 实战经验,整理成一套**可复用的严格自审流程**, 让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
+本项目综合 **NeurIPS / ICML / ICLR / AAAI / KDD 多届顶会 reviewer guidelines、OpenReview 公开讨论以及作者本人的投稿与 rebuttal 实战经验**,整理成一套可复用的严格自审流程,让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
 
 ---
 

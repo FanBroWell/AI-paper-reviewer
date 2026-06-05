@@ -1,6 +1,6 @@
 # Case 01 · Abstract 改前 / 改后对比
 
-> **声明**:本案例是**虚构的 ML paper abstract**,用来演示 Top-conf-PaperReviewer 的 audit + 改写流程。任何与真实 paper 的相似仅为巧合。
+> **声明**:本案例是**虚构的 ML paper abstract**,用来演示 AI-paper-reviewer 的 audit + 改写流程。任何与真实 paper 的相似仅为巧合。
 
 ---
 
@@ -26,7 +26,7 @@ findings open a new research direction in this domain.
 
 ---
 
-## 🔍 Top-conf-PaperReviewer Audit 结果
+## 🔍 AI-paper-reviewer Audit 结果
 
 ### 综合评级: 🔴 **Critical**(3 处 critical + 5 处 major)
 

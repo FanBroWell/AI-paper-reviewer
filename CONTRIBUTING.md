@@ -1,4 +1,4 @@
-# Contributing to Top-conf-PaperReviewer
+# Contributing to AI-paper-reviewer
 
 感谢你愿意贡献!这个项目的目标是**收集 / 沉淀 / 共享**顶会论文审稿经验,让每一位科研人都能在投稿前自审到 reviewer 级别。
 

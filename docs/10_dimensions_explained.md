@@ -1,6 +1,6 @@
 # 10 维度审查框架详解
 
-> 本文档详细说明 Top-conf-PaperReviewer 的 10 维度审查体系**为什么这么设计 / 每一维实际查什么 / 跟 reviewer 视角的对应关系**。
+> 本文档详细说明 AI-paper-reviewer 的 10 维度审查体系**为什么这么设计 / 每一维实际查什么 / 跟 reviewer 视角的对应关系**。
 
 ---
 
@@ -204,7 +204,7 @@ Reviewer Mind:
 
 ## 跟其他 audit 框架对比
 
-| 框架 | 关注点 | 跟 Top-conf-PaperReviewer |
+| 框架 | 关注点 | 跟 AI-paper-reviewer |
 |---|---|---|
 | ACL Rolling Review | 长 essay-form review | 互补,本框架更结构化 |
 | ICML reviewer guidelines | review template | **本框架是基于 reviewer guideline 反向工程** |

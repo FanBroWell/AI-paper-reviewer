@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Top-conf-PaperReviewer" width="100%" />
+<img src="assets/banner.png" alt="AI-paper-reviewer" width="100%" />
 
-# 🔍 Top-conf-PaperReviewer
+# 🔍 AI-paper-reviewer
 
-**Let AI act as the strictest top-tier conference reviewer for you**
+**AI paper reviewer prompts for NeurIPS, ICML, ICLR, AAAI, and KDD**
+
+A strict pre-submission checklist for academic writing, citation checking, reproducibility, rebuttal preparation, and reviewer-style paper audits.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
