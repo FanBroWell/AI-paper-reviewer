@@ -4,9 +4,9 @@
 
 # 🔍 AI-paper-reviewer
 
-**AI paper reviewer prompts for NeurIPS, ICML, ICLR, AAAI, and KDD**
+**在 reviewer 发现问题之前，先自己发现。**
 
-严格的投稿前自审 prompt 集合,覆盖 academic writing、citation checking、reproducibility、rebuttal preparation 和 reviewer-style paper audits。
+面向 NeurIPS、ICML、ICLR、AAAI、KDD 等顶会投稿场景的严格论文自审 prompt 工具箱。它帮助你在投稿前检查逻辑、claim、实验、引用、双盲匿名、可复现性和 rebuttal 风险。
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -18,15 +18,23 @@
 
 ---
 
-> **不要再让 reviewer 替你找低级错误。投稿前自己找出来。**
+> 很多拒稿痛点并不是一个致命错误,而是一串本来可以提前修掉的问题:claim 过强、定位不清、数字不一致、引用缺失、写作含糊、双盲泄露。
 
-## 📖 为什么做这个项目
+## 它帮你提前抓什么
 
-当你提交论文,reviewer 第一轮就退回 30 条 comment——你才发现其中 **25 条是你投稿前完全可以自己发现的低级错误**。
+- 证据支撑不了的过强 claim
+- reviewer 容易挑战的 `significant`、`novel`、`state-of-the-art`
+- 引用缺口、相关工作定位不足、疑似幻觉引用
+- Abstract / Table / Figure 里的数字不一致
+- 投稿前的 reproducibility checklist 风险
+- 正文、链接、metadata、acknowledgments 里的双盲泄露
+- 本可以在 rebuttal 前就修掉的问题
 
-顶会论文的"自审"是一门**隐性技能**:成熟的研究组有完善的自查清单, 大多数人却在反复踩同样的坑——直到被 reviewer 写在评审意见里才意识到。
+## 这个项目是什么
 
-本项目综合 **NeurIPS / ICML / ICLR / AAAI / KDD 多届顶会 reviewer guidelines、OpenReview 公开讨论以及作者本人的投稿与 rebuttal 实战经验**,整理成一套可复用的严格自审流程,让你的论文在**投稿前**就过一遍**顶会 reviewer 的眼**。
+AI-paper-reviewer 是一组可直接复制到 Claude / ChatGPT / Gemini / Codex 的 paper review prompts。它综合 **NeurIPS / ICML / ICLR / AAAI / KDD 多届顶会 reviewer guidelines、OpenReview 公开讨论以及作者本人的投稿与 rebuttal 经验**,整理成一套可复用的投稿前自审流程。
+
+它不是帮你“包装”论文,而是帮你用 reviewer 的视角提前发现论文中最容易被扣分的地方。
 
 ---
 
@@ -42,16 +50,16 @@
 
 ---
 
-## 🚀 Quick Start
+## 🚀 3 分钟开始自审
 
 ```
 1. 打开你的 AI 对话(Claude / ChatGPT / Gemini 都行)
 2. 复制 prompts/02_paragraph_audit.md 整块到对话框
 3. AI 回复 "准备好了"
-4. 按段落贴 paper 内容,接收严格审查 + 改写建议
+4. 按段落贴 paper 内容,拿到严格审查 + 可直接替换的改写建议
 ```
 
-**最常用:[`02_paragraph_audit.md`](prompts/02_paragraph_audit.md)** — 平时改稿一段一段过。
+最常用的是 [`02_paragraph_audit.md`](prompts/02_paragraph_audit.md):适合在改稿时一段一段过,持续追踪 claim、citation、notation、numbers 和 reviewer red flags。
 
 ---
 

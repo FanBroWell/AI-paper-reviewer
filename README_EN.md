@@ -4,9 +4,9 @@
 
 # 🔍 AI-paper-reviewer
 
-**AI paper reviewer prompts for NeurIPS, ICML, ICLR, AAAI, and KDD**
+**Catch reviewer comments before reviewers do.**
 
-A strict pre-submission checklist for academic writing, citation checking, reproducibility, rebuttal preparation, and reviewer-style paper audits.
+A strict pre-submission prompt toolkit for researchers submitting to NeurIPS, ICML, ICLR, AAAI, KDD, and other top-tier venues. It helps you audit logic, claims, experiments, citations, anonymity, reproducibility, and rebuttal readiness before your paper reaches reviewers.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -17,16 +17,23 @@ A strict pre-submission checklist for academic writing, citation checking, repro
 
 ---
 
-> **Stop letting reviewers find low-level errors for you. Find them yourself before submission.**
+> Most rejection pain does not come from one fatal flaw. It comes from many avoidable comments: unsupported claims, weak positioning, inconsistent numbers, missing citations, unclear writing, and double-blind leaks.
 
-## 📖 Why this project
+## What this helps you catch
 
-When you submit your paper, reviewers come back with 30 comments — only to realize **25 of them are low-level errors you could have caught yourself before submission**.
+- Claims that sound stronger than your evidence supports
+- `significant`, `novel`, or `state-of-the-art` wording that reviewers may challenge
+- Citation gaps, weak related-work positioning, and hallucinated references
+- Table / figure / abstract number mismatches
+- Reproducibility checklist issues before submission
+- Double-blind leaks in text, links, metadata, and acknowledgments
+- Rebuttal risks that can be fixed before reviews arrive
 
-Top-tier paper self-review is an **invisible craft**: well-established research groups maintain their own audit checklists, while most authors keep stumbling over the same pitfalls — until a reviewer writes it in the review.
+## What this project is
 
-This project synthesizes a strict reviewer-grade self-audit workflow from **publicly available reviewer guidelines, author-reviewer discussions on OpenReview, and the author's own multi-venue submission and rebuttal experience** across NeurIPS / ICML / ICLR / CIKM / KDD — letting your paper survive **a top-tier reviewer's eye before submission**.
+AI-paper-reviewer is a collection of copy-ready paper review prompts for Claude, ChatGPT, Gemini, and Codex. It synthesizes a reviewer-grade self-audit workflow from **publicly available reviewer guidelines, author-reviewer discussions on OpenReview, and the author's multi-venue submission and rebuttal experience** across NeurIPS / ICML / ICLR / AAAI / KDD.
 
+It is not a paper-writing shortcut. It is a pre-submission audit layer that helps you see your manuscript through a reviewer's eyes before the review arrives.
 
 ---
 
@@ -42,16 +49,16 @@ This project synthesizes a strict reviewer-grade self-audit workflow from **publ
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Start in 3 minutes
 
 ```
 1. Open your AI chat (Claude / ChatGPT / Gemini)
 2. Copy prompts/02_paragraph_audit.md into the chatbox
 3. AI replies "Ready"
-4. Paste paragraphs of your paper, receive strict audit + rewrite suggestions
+4. Paste paragraphs of your paper and get strict audit + directly usable rewrite suggestions
 ```
 
-**Most used:** [`prompts/02_paragraph_audit.md`](prompts/02_paragraph_audit.md) — paragraph-by-paragraph review during editing.
+Most people start with [`prompts/02_paragraph_audit.md`](prompts/02_paragraph_audit.md): use it paragraph by paragraph while editing to track claims, citations, notation, numbers, and reviewer red flags.
 
 ---
 
