@@ -36,24 +36,10 @@ AI-paper-reviewer 是一组可直接复制到 Claude / ChatGPT / Gemini / Codex 
 
 它不是帮你“包装”论文,而是帮你用 reviewer 的视角提前发现论文中最容易被扣分的地方。
 
-## Council-5 五席审议会
-
-**不要问一个 AI,开一场审议会。**
-
-Council-5 是一个通用高压审查协议,不只适用于论文,也可以用于代码设计、产品想法、研究方向、商业计划和公开表达。它让五个不同席位围审同一个输入:反对席、原理席、扩建席、外部席、执行席。最后由主席去重、裁决优先级,输出 P0 / P1 / P2 和可直接使用的修改版本。
-
-核心 hook:
-
-> 在现实检验你之前,先压力测试你的想法。
-
-直接使用: [`prompts/15_council5_review_board.md`](prompts/15_council5_review_board.md)  
-机制说明: [`docs/council5_protocol.md`](docs/council5_protocol.md)
-
 ---
 
 ## ✨ 核心特色
 
-- 🧭 **Council-5 五席审议会** — 用反对、第一性原理、扩展、外部读者、执行落地五个视角压力测试重要内容
 - 🎯 **10 维度审查框架** — 逻辑 / 实证 / 写作 / 引用 / 数学符号 / 双盲 / 格式 / 语言 / 结构 / 红旗
 - 🚨 **4 级红旗体系** — 🔴 Critical / 🟠 Major / 🟡 Minor / 🟢 Pass,**优先级清晰**
 - 📊 **段落级精细审查** — 每段给 10 维度评分 + 逐句改写建议
@@ -119,12 +105,6 @@ Council-5 是一个通用高压审查协议,不只适用于论文,也可以用�
 |---|---|
 | [`14_reviewer_red_flags.md`](prompts/14_reviewer_red_flags.md) | 顶会 reviewer 红旗速查表(随时翻) |
 
-### Part VI: 通用审议协议
-
-| 文件 | 用途 |
-|---|---|
-| [`15_council5_review_board.md`](prompts/15_council5_review_board.md) | Council-5 五席审议会:论文、代码、产品、计划、观点都可用 |
-
 ---
 
 ## 📊 实战效果
@@ -139,11 +119,6 @@ Council-5 是一个通用高压审查协议,不只适用于论文,也可以用�
 [`examples/case_02_method_audit.md`](examples/case_02_method_audit.md)
 Algorithm 描述里 `θ` 跟 `τ` 同时出现导致内部矛盾的修复全过程。
 
-### 真实案例:Council-5 通用审议
-
-[`examples/case_03_council5_general_review.md`](examples/case_03_council5_general_review.md)
-同一个想法经过五个席位审查,再由主席合并成 P0 / P1 / P2 和可直接替换的版本。
-
 ---
 
 ## 📚 支持文档
@@ -151,7 +126,6 @@ Algorithm 描述里 `θ` 跟 `τ` 同时出现导致内部矛盾的修复全过�
 - [`docs/10_dimensions_explained.md`](docs/10_dimensions_explained.md) — 10 维度框架详解
 - [`docs/severity_tiers.md`](docs/severity_tiers.md) — 4 级红旗体系详解
 - [`docs/usage_guide.md`](docs/usage_guide.md) — 进阶使用指南(跨段对照 / token 优化 / 自动化 pipeline 等)
-- [`docs/council5_protocol.md`](docs/council5_protocol.md) — Council-5 五席审议会机制说明
 
 ---
 
