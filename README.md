@@ -163,13 +163,13 @@ Algorithm 描述里 `θ` 跟 `τ` 同时出现导致内部矛盾的修复全过�
 
 ## 🤝 贡献
 
-发现新的 reviewer 红旗?碰到没覆盖的场景?欢迎 PR。详见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+发现新的需求，欢迎参与创造。详见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
 ---
 
 ## 🌟 Star History
 
-如果这个项目帮你避免了一次 reviewer 退稿,**点个 Star 让更多人看到** ⭐
+如果这个项目对你有帮助, **点个Star让更多人看到** ⭐
 
 ---
 
