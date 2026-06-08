@@ -48,7 +48,7 @@ Full Paper Audit Summary
 ===================================
 
 ## Overall Assessment
-- Overall rating: Pass / Minor / Major / Critical
+- Overall rating: 🟢 / 🟡 / 🟠 / 🔴
 - Submission readiness: 0-100
 - Estimated top-tier acceptance support: [low / medium / high, with caveat]
 
@@ -62,12 +62,12 @@ Full Paper Audit Summary
 ## Section Ratings
 | Section | Rating | Main issue |
 |---|---|---|
-| Abstract | ... | ... |
-| Introduction | ... | ... |
-| Related Work | ... | ... |
-| Methodology | ... | ... |
-| Experiments | ... | ... |
-| Conclusion | ... | ... |
+| Abstract | 🟢/🟡/🟠/🔴 | ... |
+| Introduction | 🟢/🟡/🟠/🔴 | ... |
+| Related Work | 🟢/🟡/🟠/🔴 | ... |
+| Methodology | 🟢/🟡/🟠/🔴 | ... |
+| Experiments | 🟢/🟡/🟠/🔴 | ... |
+| Conclusion | 🟢/🟡/🟠/🔴 | ... |
 
 ## Global Issues
 - `redefine` / `first`-class claims: N occurrences at [Sec. X.Y]
@@ -85,7 +85,7 @@ Full Paper Audit Summary
 [Review each section using the format in 00_master_workflow.md]
 
 ## TL;DR
-- Required before submission: N Critical + N Major issues
+- Required before submission: N 🔴 Critical + N 🟠 Major issues
 - Estimated repair time: N hours
 - Expected state after repair: top-tier candidate / needs major work
 

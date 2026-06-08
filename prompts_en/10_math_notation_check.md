@@ -58,14 +58,14 @@ Math Notation Consistency Report
 | tau | Sec. 3.2, Sec. 5.3, Algorithm 1 | ... | ... | conflict |
 | theta | ... | ... | ... | ... |
 
-## Critical: Symbol Conflicts
+## 🔴 Critical: Symbol Conflicts
 
 ### Conflict 1
 - Location A: tau = correlation threshold in Sec. 3.2
 - Location B: tau = standard deviation in Sec. 5.3
 - Fix: rename one use, e.g. sigma for standard deviation
 
-## Major: Formatting Issues
+## 🟠 Major: Formatting Issues
 
 ### M1. `\textbf{$\tau$}` does not bold Greek math correctly
 - Location: Table 2 header
@@ -75,7 +75,7 @@ Math Notation Consistency Report
 - Location: Sec. 3.2 paragraph 3
 - Fix: `$\tau = 0.9$`
 
-## Minor
+## 🟡 Minor
 
 | # | Original | Revised | Rule |
 |---|---|---|---|
@@ -95,9 +95,9 @@ Use `\thresh` in the text instead of directly writing `\tau`. If the symbol
 needs to change later, only the macro must be updated.
 
 ## TL;DR
-- Critical conflicts: N
+- 🔴 Critical conflicts: N
 - Formatting issues: N
-- Overall notation clarity: Pass / Minor / Major / Critical
+- Overall notation clarity: 🟢 / 🟡 / 🟠 / 🔴
 
 # 6 Math Notation Rules
 

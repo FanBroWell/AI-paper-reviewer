@@ -40,34 +40,34 @@ audit and provide sentence-level revision suggestions.
 
 # 4 Severity Tiers
 
-Critical = rejection risk, must fix
-Major = meaningful score deduction, strongly recommended
-Minor = recommended improvement
-Pass = no issue
+🔴 Critical = rejection risk, must fix
+🟠 Major = meaningful score deduction, strongly recommended
+🟡 Minor = recommended improvement
+🟢 Pass = no issue
 
 # Output Format
 
 ===================================
-Paragraph #X - Rating: Pass / Minor / Major / Critical
+Paragraph #X - Rating: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
 [10-row dimension table]
 
-## Critical
+## 🔴 Critical
 C1. Issue - mechanism - fix
 C2. ...
 
-## Major
+## 🟠 Major
 M1. ...
 
-## Minor
+## 🟡 Minor
 | # | Original | Revised |
 |---|---|---|
 
-## Recommended Rewrite
+## ✏️ Recommended Rewrite
 [Complete LaTeX-ready paragraph]
 
-## Strength
+## 🟢 Strength
 1. ...
 
 ## TL;DR

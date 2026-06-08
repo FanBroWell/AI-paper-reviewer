@@ -57,15 +57,15 @@ below.
 # Output Format
 
 ===================================
-Experiments + Table Audit - Rating: Pass / Minor / Major / Critical
+Experiments + Table Audit - Rating: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
 ## 8-Item Check
 
 | # | Item | Rating | Issue |
 |---|---|---|---|
-| 1 | Table number cross-consistency | ... | ... |
-| 2 | Baseline fairness | ... | ... |
+| 1 | Table number cross-consistency | 🟢/🟡/🟠/🔴 | ... |
+| 2 | Baseline fairness | 🟢/🟡/🟠/🔴 | ... |
 | ... | ... | ... | ... |
 
 ## Number Consistency Matrix
@@ -75,7 +75,7 @@ Experiments + Table Audit - Rating: Pass / Minor / Major / Critical
 | IC | 0.025 | 0.025 | 0.025 | yes |
 | Sharpe | 3.07 | 3.072 | 3.072 | rounding warning |
 
-## Recommended Rewrite
+## ✏️ Recommended Rewrite
 [Concrete edits + complete table LaTeX when applicable]
 
 # 8 Experiments Rules

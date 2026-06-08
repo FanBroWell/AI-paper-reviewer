@@ -6,7 +6,7 @@
 
 ---
 
-## Critical Red Flags
+## 🔴 Critical Red Flags
 
 ### 1. `we are the first to ...`
 
@@ -78,7 +78,7 @@ scope.
 
 ---
 
-## Major Red Flags
+## 🟠 Major Red Flags
 
 ### 11. `no matter how complex / regardless of architecture`
 
@@ -147,7 +147,7 @@ under Z.`
 
 ---
 
-## Minor Red Flags
+## 🟡 Minor Red Flags
 
 ### 21. `In this paper, we ...` as the first sentence
 

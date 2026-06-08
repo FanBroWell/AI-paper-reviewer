@@ -51,27 +51,27 @@ using the six checks below.
 # Output Format
 
 ===================================
-Introduction Audit - Rating: Pass / Minor / Major / Critical
+Introduction Audit - Rating: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
 ## 6-Item Check
 
 | # | Item | Rating | Issue |
 |---|---|---|---|
-| 1 | First-sentence hook | ... | ... |
-| 2 | Citation density | ... | ... |
-| 3 | Motivation strength | ... | ... |
-| 4 | Dangerous wording | ... | ... |
-| 5 | Length | ... | ... |
-| 6 | Cross-section consistency | ... | ... |
+| 1 | First-sentence hook | 🟢/🟡/🟠/🔴 | ... |
+| 2 | Citation density | 🟢/🟡/🟠/🔴 | ... |
+| 3 | Motivation strength | 🟢/🟡/🟠/🔴 | ... |
+| 4 | Dangerous wording | 🟢/🟡/🟠/🔴 | ... |
+| 5 | Length | 🟢/🟡/🟠/🔴 | ... |
+| 6 | Cross-section consistency | 🟢/🟡/🟠/🔴 | ... |
 
-## Critical
+## 🔴 Critical
 ...
 
-## Major
+## 🟠 Major
 ...
 
-## Recommended Paragraph-Level Rewrite
+## ✏️ Recommended Paragraph-Level Rewrite
 [Complete rewrite example]
 
 # 6 Introduction Rules

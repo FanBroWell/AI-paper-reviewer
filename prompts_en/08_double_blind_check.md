@@ -63,18 +63,18 @@ leakage below.
 # Output Format
 
 ===================================
-Double-Blind Scan Report: Pass / Minor / Major / Critical
+Double-Blind Scan Report: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
 ## Hits, Ordered by Severity
 
-Critical - must fix within 24h:
+🔴 Critical - must fix within 24h:
 - [Location] content - why it reveals identity - how to fix
 
-Major:
+🟠 Major:
 - ...
 
-Minor:
+🟡 Minor:
 - ...
 
 ## Fix Script for LaTeX
@@ -84,12 +84,12 @@ Minor:
 [Commands for clearing metadata, removing system files, and anonymizing repo
 configuration]
 
-## Passed Items
+## 🟢 Passed Items
 [List checks that appear compliant]
 
 ## TL;DR
 - Total hits: N
-- Critical hits: X
+- 🔴 Critical hits: X
 - Estimated repair time: Y minutes
 
 # 6 Scan Rules

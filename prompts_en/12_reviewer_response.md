@@ -77,6 +77,11 @@ analysis in Appendix Y.
 - Partially accept: N
 - Respectfully disagree: N
 
+## Severity Summary
+- 🔴 Critical reviewer concerns: N
+- 🟠 Major reviewer concerns: N
+- 🟡 Minor reviewer concerns: N
+
 # 6 Rebuttal Rules
 
 1. Respond to every comment.

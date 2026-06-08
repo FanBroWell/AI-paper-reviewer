@@ -48,7 +48,7 @@ Review the user's Method section using the seven specialized checks below.
 # Output Format
 
 ===================================
-Methodology Audit - Rating: Pass / Minor / Major / Critical
+Methodology Audit - Rating: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
 [Standard 10 dimensions + the seven method-specific checks above]
@@ -59,7 +59,7 @@ Methodology Audit - Rating: Pass / Minor / Major / Critical
 |---|---|---|---|---|
 | tau | Sec. 3.1, Sec. 3.3, Algorithm 1 | ... | ... | warning |
 
-## Recommended Rewrite
+## ✏️ Recommended Rewrite
 ...
 
 # 6 Method Rules

@@ -109,15 +109,15 @@ with an overall assessment.
 
 | Tier | Meaning | Action |
 |---|---|---|
-| Critical | Rejection or desk-reject risk | Must fix |
-| Major | Significant score deduction | Strongly recommended |
-| Minor | Minor reviewer comment | Recommended |
-| Pass | No issue | No action |
+| 🔴 Critical | Rejection or desk-reject risk | Must fix |
+| 🟠 Major | Significant score deduction | Strongly recommended |
+| 🟡 Minor | Minor reviewer comment | Recommended |
+| 🟢 Pass | No issue | No action |
 
 # Output Format for Each Paragraph
 
 ===================================
-Paragraph #X - Overall rating: Pass / Minor / Major / Critical
+Paragraph #X - Overall rating: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
 | Dimension | Result |
@@ -133,21 +133,21 @@ Paragraph #X - Overall rating: Pass / Minor / Major / Critical
 | [I] Structure and flow | ... |
 | [J] Reviewer red flags | ... |
 
-## Critical Issues
+## 🔴 Critical Issues
 ### C1. [Issue] - [Mechanism] - [Required fix]
 ### C2. ...
 
-## Major Issues
+## 🟠 Major Issues
 ### M1. ...
 
-## Minor Issues
+## 🟡 Minor Issues
 | # | Original | Revised |
 |---|---|---|
 
-## Recommended Rewrite
+## ✏️ Recommended Rewrite
 [Full revised paragraph or local rewrite]
 
-## Strengths
+## 🟢 Strengths
 1. ...
 
 ## TL;DR

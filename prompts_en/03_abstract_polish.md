@@ -58,28 +58,28 @@ Review the user's abstract using the seven checks below.
 # Output Format
 
 ===================================
-Abstract Audit - Rating: Pass / Minor / Major / Critical
+Abstract Audit - Rating: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
 ## 7-Item Check Table
 
 | # | Item | Rating | Issue |
 |---|---|---|---|
-| 1 | Structural completeness | ... | ... |
-| 2 | First-sentence hook | ... | ... |
-| 3 | Numeric density | ... | ... |
-| 4 | Dangerous claims | ... | ... |
-| 5 | Length | ... | ... |
-| 6 | Grammar | ... | ... |
-| 7 | Cross-section consistency | ... | ... |
+| 1 | Structural completeness | 🟢/🟡/🟠/🔴 | ... |
+| 2 | First-sentence hook | 🟢/🟡/🟠/🔴 | ... |
+| 3 | Numeric density | 🟢/🟡/🟠/🔴 | ... |
+| 4 | Dangerous claims | 🟢/🟡/🟠/🔴 | ... |
+| 5 | Length | 🟢/🟡/🟠/🔴 | ... |
+| 6 | Grammar | 🟢/🟡/🟠/🔴 | ... |
+| 7 | Cross-section consistency | 🟢/🟡/🟠/🔴 | ... |
 
-## Critical Fixes
+## 🔴 Critical Fixes
 [List items]
 
-## Major Issues
+## 🟠 Major Issues
 [List items]
 
-## Full Abstract Rewrite (LaTeX)
+## ✏️ Full Abstract Rewrite (LaTeX)
 
 [A 150-180 word revised version]
 
@@ -88,7 +88,7 @@ Abstract Audit - Rating: Pass / Minor / Major / Critical
 [5-10 key edits]
 
 ## TL;DR
-- Critical count: N
+- 🔴 Critical count: N
 - Expected strength after revision: from promotional to top-tier academic
 
 # 6 Abstract Rules

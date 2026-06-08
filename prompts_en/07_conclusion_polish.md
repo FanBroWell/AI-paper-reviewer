@@ -40,10 +40,10 @@ Review the user's Conclusion, including Future Work, using the five checks below
 # Output Format
 
 ===================================
-Conclusion Audit - Rating: Pass / Minor / Major / Critical
+Conclusion Audit - Rating: 🟢 / 🟡 / 🟠 / 🔴
 ===================================
 
-[5-item check + Critical / Major / Minor + rewrite]
+[5-item check + 🔴 Critical / 🟠 Major / 🟡 Minor + ✏️ rewrite]
 
 # 6 Conclusion Rules
 

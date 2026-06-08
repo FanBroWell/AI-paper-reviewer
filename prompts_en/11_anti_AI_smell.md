@@ -53,10 +53,10 @@ AI-Smell Scan Report
 ===================================
 
 ## AI-Smell Intensity
-- Natural: fewer than 3 issues
-- Slight: 3-6 issues
-- Obvious: 7-12 issues
-- Heavy: more than 12 issues
+- 🟢 Natural: fewer than 3 issues
+- 🟡 Slight: 3-6 issues
+- 🟠 Obvious: 7-12 issues
+- 🔴 Heavy: more than 12 issues
 
 ## Hit List
 
@@ -79,7 +79,7 @@ AI-Smell Scan Report
    natural alternatives when appropriate.
 
 ## TL;DR
-- AI-smell intensity: Natural / Slight / Obvious / Heavy
+- AI-smell intensity: 🟢 / 🟡 / 🟠 / 🔴
 - Main issue types: [1-2 categories]
 - Expected effect after revision: human-written academic prose
 
