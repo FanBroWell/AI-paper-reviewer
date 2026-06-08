@@ -109,6 +109,20 @@ English users can use [`README_EN.md`](README_EN.md) and the matching English pr
 
 ---
 
+## 🌟 Star History
+
+<a href="https://www.star-history.com/#FanBroWell/AI-paper-reviewer&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
+  </picture>
+</a>
+
+如果这个项目对你有帮助, **点个 Star 让更多人看到** ⭐
+
+---
+
 ## 📊 实战效果
 
 ### 真实案例:Abstract 改前 / 改后
@@ -166,12 +180,6 @@ Algorithm 描述里 `θ` 跟 `τ` 同时出现导致内部矛盾的修复全过�
 ## 🤝 贡献
 
 发现新的需求，欢迎参与创造。详见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
-
----
-
-## 🌟 Star History
-
-如果这个项目对你有帮助, **点个Star让更多人看到** ⭐
 
 ---
 

@@ -93,6 +93,20 @@ Chinese prompts are kept in [`prompts/`](prompts/). English prompt versions are 
 
 ---
 
+## 🌟 Star History
+
+<a href="https://www.star-history.com/#FanBroWell/AI-paper-reviewer&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
+  </picture>
+</a>
+
+If this project helps you avoid even one reviewer rejection, **give it a Star so more people can find it** ⭐
+
+---
+
 ## 📊 Real examples
 
 - [`examples/case_01_abstract_before_after.md`](examples/case_01_abstract_before_after.md) — Abstract before / after with 9 key edits.
@@ -143,12 +157,6 @@ See [`docs/severity_tiers.md`](docs/severity_tiers.md) for details.
 ## 🤝 Contributing
 
 Found a new reviewer red flag? Encountered an uncovered scenario? PRs welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
----
-
-## 🌟 Star History
-
-If this project ever helped you avoid one reviewer rejection, **give it a Star so more people can find it** ⭐
 
 ---
 
