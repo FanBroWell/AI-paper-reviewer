@@ -61,6 +61,8 @@ AI-paper-reviewer 是一组可直接复制到 Claude / ChatGPT / Gemini / Codex 
 
 最常用的是 [`02_paragraph_audit.md`](prompts/02_paragraph_audit.md):适合在改稿时一段一段过,持续追踪 claim、citation、notation、numbers 和 reviewer red flags。
 
+English users can use [`README_EN.md`](README_EN.md) and the matching English prompt files in [`prompts_en/`](prompts_en/).
+
 ---
 
 ## 📑 目录

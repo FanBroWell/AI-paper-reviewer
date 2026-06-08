@@ -53,41 +53,43 @@ It is not a paper-writing shortcut. It is a pre-submission audit layer that help
 
 ```
 1. Open your AI chat (Claude / ChatGPT / Gemini)
-2. Copy prompts/02_paragraph_audit.md into the chatbox
+2. Copy prompts_en/02_paragraph_audit.md into the chatbox
 3. AI replies "Ready"
 4. Paste paragraphs of your paper and get strict audit + directly usable rewrite suggestions
 ```
 
-Most people start with [`prompts/02_paragraph_audit.md`](prompts/02_paragraph_audit.md): use it paragraph by paragraph while editing to track claims, citations, notation, numbers, and reviewer red flags.
+Most English users start with [`prompts_en/02_paragraph_audit.md`](prompts_en/02_paragraph_audit.md): use it paragraph by paragraph while editing to track claims, citations, notation, numbers, and reviewer red flags.
+
+Chinese prompts are kept in [`prompts/`](prompts/). English prompt versions are kept in [`prompts_en/`](prompts_en/) with matching filenames.
 
 ---
 
 ## 📑 Contents
 
 ### Part I: Core audit workflows
-- [`00_master_workflow.md`](prompts/00_master_workflow.md) — Full 10-dimension audit (master)
-- [`01_full_paper_audit.md`](prompts/01_full_paper_audit.md) — Whole-paper one-shot audit
-- [`02_paragraph_audit.md`](prompts/02_paragraph_audit.md) ⭐ — Paragraph audit + global tracking (most used)
+- [`00_master_workflow.md`](prompts_en/00_master_workflow.md) — Full 10-dimension audit (master)
+- [`01_full_paper_audit.md`](prompts_en/01_full_paper_audit.md) — Whole-paper one-shot audit
+- [`02_paragraph_audit.md`](prompts_en/02_paragraph_audit.md) ⭐ — Paragraph audit + global tracking (most used)
 
 ### Part II: Section-specific
-- [`03_abstract_polish.md`](prompts/03_abstract_polish.md)
-- [`04_intro_polish.md`](prompts/04_intro_polish.md)
-- [`05_method_polish.md`](prompts/05_method_polish.md)
-- [`06_experiments_check.md`](prompts/06_experiments_check.md)
-- [`07_conclusion_polish.md`](prompts/07_conclusion_polish.md)
+- [`03_abstract_polish.md`](prompts_en/03_abstract_polish.md)
+- [`04_intro_polish.md`](prompts_en/04_intro_polish.md)
+- [`05_method_polish.md`](prompts_en/05_method_polish.md)
+- [`06_experiments_check.md`](prompts_en/06_experiments_check.md)
+- [`07_conclusion_polish.md`](prompts_en/07_conclusion_polish.md)
 
 ### Part III: Targeted checks
-- [`08_double_blind_check.md`](prompts/08_double_blind_check.md)
-- [`09_citation_ieee_format.md`](prompts/09_citation_ieee_format.md)
-- [`10_math_notation_check.md`](prompts/10_math_notation_check.md)
-- [`11_anti_AI_smell.md`](prompts/11_anti_AI_smell.md)
+- [`08_double_blind_check.md`](prompts_en/08_double_blind_check.md)
+- [`09_citation_ieee_format.md`](prompts_en/09_citation_ieee_format.md)
+- [`10_math_notation_check.md`](prompts_en/10_math_notation_check.md)
+- [`11_anti_AI_smell.md`](prompts_en/11_anti_AI_smell.md)
 
 ### Part IV: Pre / post submission
-- [`12_reviewer_response.md`](prompts/12_reviewer_response.md) — Rebuttal helper
-- [`13_repro_checklist.md`](prompts/13_repro_checklist.md) — Reproducibility checklist
+- [`12_reviewer_response.md`](prompts_en/12_reviewer_response.md) — Rebuttal helper
+- [`13_repro_checklist.md`](prompts_en/13_repro_checklist.md) — Reproducibility checklist
 
 ### Part V: Red flag quick reference
-- [`14_reviewer_red_flags.md`](prompts/14_reviewer_red_flags.md)
+- [`14_reviewer_red_flags.md`](prompts_en/14_reviewer_red_flags.md)
 
 ---
 
