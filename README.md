@@ -109,15 +109,9 @@ English users can use [`README_EN.md`](README_EN.md) and the matching English pr
 
 ---
 
-## 🌟 Star History
+## 🌟 GitHub Stars
 
-<a href="https://www.star-history.com/#FanBroWell/AI-paper-reviewer&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
-  </picture>
-</a>
+[![GitHub Stars](https://img.shields.io/github/stars/FanBroWell/AI-paper-reviewer?style=for-the-badge&logo=github&label=Stars)](https://github.com/FanBroWell/AI-paper-reviewer/stargazers)
 
 如果这个项目对你有帮助, **点个 Star 让更多人看到** ⭐
 
