@@ -1,0 +1,54 @@
+name: Update star history
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-star-history.yml"
+      - "scripts/generate_star_history.py"
+      - "tests/test_generate_star_history.py"
+      - "tests/test_star_history_workflow.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-star-history
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Generate star-history SVG
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/generate_star_history.py --output assets/star-history.svg
+
+      - name: Commit updated chart
+        run: |
+          if git diff --quiet -- assets/star-history.svg; then
+            echo "Star history is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/star-history.svg
+          git commit -m "docs: update star history chart"
+          git push
