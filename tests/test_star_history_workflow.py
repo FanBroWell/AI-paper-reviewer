@@ -14,6 +14,12 @@ class StarHistoryWorkflowTests(unittest.TestCase):
         self.assertIn("python scripts/generate_star_history.py", content)
         self.assertIn("GITHUB_TOKEN: ${{ github.token }}", content)
         self.assertIn("python -m unittest discover", content)
+        self.assertIn("git add assets/star-history.svg", content)
+        self.assertIn("git diff --cached --quiet", content)
+        self.assertLess(
+            content.index("git add assets/star-history.svg"),
+            content.index("git diff --cached --quiet"),
+        )
         self.assertNotIn("github_pat_", content)
 
 
