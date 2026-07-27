@@ -109,9 +109,13 @@ English users can use [`README_EN.md`](README_EN.md) and the matching English pr
 
 ---
 
-## 🌟 GitHub Stars
+## 🌟 Star History
+
+[![Star History Chart](assets/star-history.svg)](https://github.com/FanBroWell/AI-paper-reviewer/stargazers)
 
 [![GitHub Stars](https://img.shields.io/github/stars/FanBroWell/AI-paper-reviewer?style=for-the-badge&logo=github&label=Stars)](https://github.com/FanBroWell/AI-paper-reviewer/stargazers)
+
+曲线由 GitHub Actions 每日自动更新。
 
 如果这个项目对你有帮助, **点个 Star 让更多人看到** ⭐
 
