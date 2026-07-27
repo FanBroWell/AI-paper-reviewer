@@ -23,5 +23,17 @@ class StarHistoryWorkflowTests(unittest.TestCase):
         self.assertNotIn("github_pat_", content)
 
 
+class ReadmeChartTests(unittest.TestCase):
+    def test_both_readmes_embed_the_repository_local_chart(self):
+        for readme in (Path("README.md"), Path("README_EN.md")):
+            content = readme.read_text(encoding="utf-8")
+            self.assertIn(
+                "[![Star History Chart](assets/star-history.svg)]",
+                content,
+                str(readme),
+            )
+            self.assertNotIn("api.star-history.com", content, str(readme))
+
+
 if __name__ == "__main__":
     unittest.main()
