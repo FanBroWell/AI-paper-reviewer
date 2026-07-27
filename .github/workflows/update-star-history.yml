@@ -43,12 +43,12 @@ jobs:
 
       - name: Commit updated chart
         run: |
-          if git diff --quiet -- assets/star-history.svg; then
+          git add assets/star-history.svg
+          if git diff --cached --quiet; then
             echo "Star history is already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/star-history.svg
           git commit -m "docs: update star history chart"
           git push
