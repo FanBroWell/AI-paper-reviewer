@@ -95,13 +95,11 @@ Chinese prompts are kept in [`prompts/`](prompts/). English prompt versions are 
 
 ## 🌟 Star History
 
-<a href="https://www.star-history.com/#FanBroWell/AI-paper-reviewer&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FanBroWell/AI-paper-reviewer&type=Date" />
-  </picture>
-</a>
+[![Star History Chart](assets/star-history.svg)](https://github.com/FanBroWell/AI-paper-reviewer/stargazers)
+
+[![GitHub Stars](https://img.shields.io/github/stars/FanBroWell/AI-paper-reviewer?style=for-the-badge&logo=github&label=Stars)](https://github.com/FanBroWell/AI-paper-reviewer/stargazers)
+
+The chart is refreshed daily by GitHub Actions.
 
 If this project helps you avoid even one reviewer rejection, **give it a Star so more people can find it** ⭐
 
